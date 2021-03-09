@@ -9,3 +9,8 @@ depend:
 commands:
   server:
     description: /server <server> transfers you to the server
+    permission: lobbysystem.server
+
+permissions:
+  lobbysystem.server:
+    default: true
