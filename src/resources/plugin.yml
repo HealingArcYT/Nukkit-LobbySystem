@@ -1,6 +1,6 @@
 main: ml.zawadl.lobbysystem.LobbySystem
 name: LobbySystem
-version: pre0.1.1
+version: pre0.1.2
 api: ["1.0.0"]
 
 depend:
