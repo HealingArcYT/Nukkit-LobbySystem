@@ -3,7 +3,9 @@ name: LobbySystem
 version: pre0.1
 api: ["1.0.0"]
 
+depend:
+  - StarGate-Universe
+
 commands:
   server:
     description: /server <server> transfers you to the server
-    
