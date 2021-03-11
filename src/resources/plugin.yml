@@ -1,11 +1,8 @@
 main: ml.zawadl.lobbysystem.LobbySystem
 name: LobbySystem
-version: pre0.1.4
+version: pre0.1.5
 api: ["1.0.0"]
 
 depend:
   - StarGate-Universe
 
-permissions:
-  lobbysystem.server:
-    default: true

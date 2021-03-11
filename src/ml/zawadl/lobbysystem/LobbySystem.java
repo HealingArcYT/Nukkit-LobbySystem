@@ -14,7 +14,7 @@ public class LobbySystem extends PluginBase {
     public void onEnable() {
         this.getLogger().info("LobbySystem is working");
         this.getServer().getPluginManager().registerEvents(new EventListener(this), this);
-        this.getServer().getCommandMap().register("server", new TransferCommand(this));
+        this.getServer().getCommandMap().register("ichgehauf", new TransferCommand(this));
         this.sgu = StarGateUniverse.getInstance();
     }
 }
