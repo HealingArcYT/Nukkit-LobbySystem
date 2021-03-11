@@ -12,7 +12,8 @@ public class TransferCommand extends PluginCommand<LobbySystem> {
 
     public TransferCommand(LobbySystem plugin) {
         super("server", plugin);
-        this.setPermission("lobbysystem.server");
+        //this.setPermission("lobbysystem.server");
+        this.setDescription("/server <server> to transfer to a server");
         this.plugin = plugin;
     }
 
